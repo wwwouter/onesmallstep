@@ -1,4 +1,4 @@
 box: wercker/bootstrap
 build:
   steps:
-    - wouter/onesmallstep
+   # - wouter/onesmallstep
