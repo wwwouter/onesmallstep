@@ -1,4 +1,7 @@
-box: wercker/bootstrap
-#build:
-#  steps:
+#box: wercker/bootstrap
+box: wouter/empty
+build:
+  steps:
    # - wouter/onesmallstep
+   - script:
+      code: ls -a
