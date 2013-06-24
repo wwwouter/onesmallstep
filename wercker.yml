@@ -1,5 +1,5 @@
-#box: wercker/bootstrap
-box: wouter/empty
+box: wercker/default
+#box: wouter/empty
 build:
   steps:
    # - wouter/onesmallstep
