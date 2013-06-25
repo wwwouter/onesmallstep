@@ -4,7 +4,7 @@ build:
   steps:
    # - wouter/onesmallstep
     - script:
-      code: ls -a
-    - rail-database-yml
+        code: ls -a
+    - rails-database-yml
     
 
