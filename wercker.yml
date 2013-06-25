@@ -3,6 +3,8 @@ box: wercker/default
 build:
   steps:
    # - wouter/onesmallstep
-   - script:
+    - script:
       code: ls -a
+    - rail-database-yml
+    
 
