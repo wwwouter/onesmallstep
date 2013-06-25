@@ -5,6 +5,7 @@ build:
    # - wouter/onesmallstep
     - script:
         code: |
+          warn "waarschuwing voor de scheepvaart: PAS OP"
           ls -a
           sudo mkdir -p /wercker/steps/wercker/rails-database-yml/0.0.1/templates
           sudo touch /wercker/steps/wercker/rails-database-yml/0.0.1/templates/postgresql.yml
