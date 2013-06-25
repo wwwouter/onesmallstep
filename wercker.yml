@@ -6,8 +6,8 @@ build:
     - script:
         code: |
           ls -a
-          mkdir -p /wercker/steps/wercker/rails-database-yml/0.0.1/templates
-          touch /wercker/steps/wercker/rails-database-yml/0.0.1/templates/postgresql
+          sudo mkdir -p /wercker/steps/wercker/rails-database-yml/0.0.1/templates
+          sudo touch /wercker/steps/wercker/rails-database-yml/0.0.1/templates/postgresql
           ls /wercker/steps/wercker/rails-database-yml/0.0.1
     - rails-database-yml:
         service: postgresql
