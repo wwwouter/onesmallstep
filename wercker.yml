@@ -4,7 +4,9 @@ build:
   steps:
    # - wouter/onesmallstep
     - script:
-        code: ls -a
+        code: |
+          ls -a
+          ls /wercker/steps/wercker/rails-database-yml/0.0.1
     - rails-database-yml:
         service: postgresql
     
