@@ -5,6 +5,7 @@ build:
    # - wouter/onesmallstep
     - script:
         code: ls -a
-    - rails-database-yml
+    - rails-database-yml:
+        service: postgresql
     
 
