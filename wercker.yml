@@ -1,16 +1,16 @@
 box: wercker/default
 #box: wouter/empty
-build:
-  steps:
-   # - wouter/onesmallstep
-    - script:
-        code: |
-          warn "waarschuwing voor de scheepvaart: PAS OP"          
-          ls /wercker/steps/wercker/rails-database-yml/0.0.2
-          echo 666666
-          ls /wercker/steps/wercker/rails-database-yml/0.0.2/templates
-          cat /wercker/wercker-build-essentials/init.sh
-    - rails-database-yml:
-        service: postgresql
+# build:
+#   steps:
+#   # - wouter/onesmallstep
+#     - script:
+#         code: |
+#           warn "waarschuwing voor de scheepvaart: PAS OP"          
+#           ls /wercker/steps/wercker/rails-database-yml/0.0.2
+#           echo 666666
+#           ls /wercker/steps/wercker/rails-database-yml/0.0.2/templates
+#           cat /wercker/wercker-build-essentials/init.sh
+#     - rails-database-yml:
+#         service: postgresql
     
 
